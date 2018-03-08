@@ -26,6 +26,11 @@ html,body {
     color : black;
     font-size: 4vw;
     text-align: center;
+    background: #ffffffb3;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 2px 2px 4px #000000;
         
     
 }
@@ -38,7 +43,11 @@ html,body {
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
-        
+    background: #ffffffb3;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 2px 2px 4px #000000;
     
 }
 
