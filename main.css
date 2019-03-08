@@ -10,7 +10,7 @@ and open the template in the editor.
 
 html,body {
     height: 100%;
-    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(img/background1.jpg) ; 
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(img/Womens-Day.jpg) ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,10 +23,10 @@ html,body {
 
 .title {
     padding-top: 4%;
-    color : black;
-    font-size: 4vw;
+    color : #0009;
+    font-size: 3vw;
     text-align: center;
-    background: #ffffffb3;
+    background: #ebe7ec4d;
     border-radius: 5px;
     margin-left: 5%;
     margin-right: 5%;
@@ -38,12 +38,12 @@ html,body {
 
 .mainBox {
     padding-top: 1%;
-    color : black;
+    color : #0009;
     font-size: 1.5vw;
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
-    background: #ffffffb3;
+    background: #ebe7ec4d;
     border-radius: 5px;
     margin-left: 5%;
     margin-right: 5%;
@@ -54,12 +54,17 @@ html,body {
 .form-main {
     
     text-align: center;
+    color : #0009;
     
+}
+
+.form-main > div {
+    margin-bottom: 3.5%;
 }
 
 .form-main > label {
     
-    font-size: 3vw;
+    font-size: 1.5vw;
     
 }
 
@@ -77,6 +82,10 @@ input {
     padding: 15px;
     background: rgba(255,255,255,0.5);
     margin: 0 0 10px 0;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 80px;
 }
 
 
@@ -94,6 +103,7 @@ input {
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
+  margin-bottom: 10px;
   text-decoration: none;
 }
 
